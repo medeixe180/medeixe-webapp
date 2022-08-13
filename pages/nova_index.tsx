@@ -1,22 +1,11 @@
 import type { NextPage } from 'next';
-import Head from 'next/head';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
+import {faAppStore, faGooglePlay} from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import styles from '../styles/Home.module.css';
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.container}>
-      <Head>
-        <meta charSet="utf-8" />
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <title>Me Deixe!</title>
-        <meta name="description" content="" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="robots" content="all,follow" />
-        <link rel="icon" href="/favicon.ico" />
-
-      </Head>
+    <div>
 
       <header className={"header"}>
         <nav className={"navbar navbar-light navbar-expand-lg fixed-top"} id={"navbar"}>
@@ -39,8 +28,41 @@ const Home: NextPage = () => {
         </nav>
       </header>
 
-      <section className={"hero bg-top py-5"} id={"hero"} >
+      <section className={"hero bg-top py-5"} id={"hero"} style={{ background: "url(img/banner-4.png) no-repeat", backgroundSize: "100% 80%" }}>
+        <div className={"container py-5"}>
+          <div className={"row py-5"}>
+            <div className={"col-lg-5 py-5"}>
+              <h1>Download your best app</h1>
+              <p className={"my-4 text-muted"}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
+              <ul className={"list-inline mb-0"}>
+                <li className={"list-inline-item mb-2 mb-lg-0"}>
+                  <a className={"btn btn-primary btn-lg px-4"} href="#!">
+                    <FontAwesomeIcon icon={ faGooglePlay } className={"me-3"} />
+                    Google Play
+                  </a>
+                </li>
+                <li className={"list-inline-item"}>
+                  <a className={"btn btn-primary btn-lg px-4"} href="#!">
+                    <FontAwesomeIcon icon={ faAppStore } className={"me-3"} />
+                    App Store
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className={"col-lg-6 ml-auto"}>
+              <div className={"device-wrapper mx-auto"}>
+                <div className={"device shadow"} data-device="iPhoneX" data-orientation="portrait" data-color="white">
+                  <div className={"screen"}>
+                    <img className={"img-fluid"} src="img/mobile.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
+
+      <section style={{ height:"500px"}}>QUalquer coisa...</section>
 
     </div>
   )
