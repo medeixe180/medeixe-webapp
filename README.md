@@ -1,27 +1,7 @@
 # MedeixeWebApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.8.
+Esse projeto faz parte de um projeto de pesquisa intitulado: **Violência no contexto doméstico e familiar: tecnologia social à serviço das mulheres do semiárido sergipano**
 
-## Development server
+## Descrição
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Trata-se de um projeto de pesquisa e desenvolvimento tecnológico social que abarca às violências domésticas e intrafamiliar que acometem mulheres que vivem em regiões do semiárido do estado de Sergipe. Estudos feitos nas delegacias dos municípios da referida região apontam que a maior parte dos registros têm como vítimas mulheres que vivem na Zona Rural, são pequenas agricultoras que sobrevivem numa região árida, com escassez de água e dificuldade de acesso aos instrumentos urbanos, especialmente, quando vivenciam episódios de violência. Nesse contexto, a delegacia, os hospitais, o conselho tutelar e o Centro de Referência Especializado de Assistência Social são importantes instituições de atendimento ao público. A proposta, portanto, propõe-se a, a) investigar os impactos das violências domésticas em mulheres e suas famílias que vivem nos municípios do Alto Sertão de Sergipe, b) analisar como as políticas públicas existentes para o atendimento às mulheres vítimas de violências domésticas e familiar são aplicadas em Sergipe, c) desenvolver, disponibilizar e consolidar produto tecnológico ?aplicativo mobille emergencial para casos de violência doméstica e familiar? para a região do Alto Sertão de Sergipe para, em seguida, transferir a tecnologia às instituições públicas que atendem mulheres em situação de violência capacitando profissionais da segurança pública e da saúde para uso do aplicativo e processamento de dados. Metodologicamente será feita pesquisa etnográfica e entrevistas com mulheres que passaram por situação de violência, profissionais do direito, da saúde e da assistência social que trabalham com atendimento às mulheres nas cidades e concomitantemente será desenvolvido o aplicativo mobille de uso emergencial. A utilização de novas tecnologias é imprescindível para o aprimoramento dos trabalhos de proteção das mulheres no âmbito nacional, assegurando também o cumprimento de compromissos internacionais dos quais o Brasil é signatário.
