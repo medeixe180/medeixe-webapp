@@ -1,0 +1,18 @@
+.partner-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 5px 5px;
+}
+.partner-img {
+  height: 150px;
+}
+
+@media screen and (min-width: 768px) {
+  .partner-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 5px 5px;
+  }
+}
